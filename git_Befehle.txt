@@ -1,0 +1,19 @@
+
+Start:
+
+git init
+git add .
+
+git config user.email "j.burkart@lfg.muenchen.musin.de"
+git config user.name "Burkart"
+
+git commit -m "erster Commit"
+
+git remote add origin https://github.com/P-Seminar-LFG-2020-22/training-HrBurkart.git
+
+git push -u origin master
+
+
+Check auf Änderungen:
+
+git status
