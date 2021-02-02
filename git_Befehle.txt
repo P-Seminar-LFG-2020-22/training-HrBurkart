@@ -29,4 +29,4 @@ git push -u origin master
 
 Damit erstellst du einen neuen Zweig, in dem z.B. ein Feature entwickelt werden kann:
 
-git branch...
+git branch
