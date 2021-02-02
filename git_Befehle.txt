@@ -14,6 +14,18 @@ git remote add origin https://github.com/P-Seminar-LFG-2020-22/training-HrBurkar
 git push -u origin master
 
 
-Check auf Änderungen:
+Den aktuellen Stand zu Änderungen, Branches, Commits anzeigen:
 
 git status
+
+Änderungen hochladen:
+
+git pull
+git add .
+git commit -m "zweiter Commit"
+git push -u origin master
+
+
+
+Damit erstellst du einen neuen Zweig, in dem z.B. ein Feature entwickelt werden kann:
+git branch
