@@ -1,5 +1,5 @@
 
-Start:
+#Start:
 
 git init
 git add .
@@ -14,11 +14,15 @@ git remote add origin https://github.com/P-Seminar-LFG-2020-22/training-HrBurkar
 git push -u origin master
 
 
-Den aktuellen Stand zu Änderungen, Branches, Commits anzeigen:
+#Den aktuellen Stand zu Änderungen, Branches, Commits anzeigen:
 
 git status
 
-Änderungen hochladen:
+#Änderungen anzeigen:
+
+git diff
+
+#Änderungen hochladen:
 
 git pull
 git add .
@@ -27,6 +31,13 @@ git push -u origin master
 
 
 
-Damit erstellst du einen neuen Zweig, in dem z.B. ein Feature entwickelt werden kann:
+#Damit erstellst du einen neuen Zweig, in dem z.B. ein Feature entwickelt werden kann:
 
 git branch
+
+#Master und Branch zusammenfügen:
+
+git checkout master
+git merge feature-01
+
+
